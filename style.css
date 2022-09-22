@@ -1,0 +1,52 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+main,
+header,
+nav {
+  display: block;
+}
+
+p {
+  margin: 0px;
+}
+
+ul li {
+  list-style: none;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+ul li:last-child{
+    margin-bottom: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* height: 100vh; */
+    margin: 50px auto;
+}
+
+.container header{
+    text-align: center;
+}
+
+.container .section-blog{
+    margin-top: 32px;
+}
+.section-blog h1{
+    margin-bottom: 1.5rem;
+    font-size: 28px;
+}
+.section-blog p{
+     margin-bottom: 1.2rem;
+}
+.profile{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
